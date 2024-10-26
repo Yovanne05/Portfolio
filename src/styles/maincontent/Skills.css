@@ -1,0 +1,56 @@
+.skills{
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.skills-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espace entre chaque bloc */
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.skills-icon-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #373737;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.icon-content:hover {
+    transform: scale(1.1);
+}
+
+.skills-icon-image {
+    width: 70px; /* Ajustement de la taille de l'image */
+    height: 70px;
+    margin-bottom: 8px; /* Espace entre l'image et le texte */
+}
+
+.icon-name {
+    font-size: 18px; /* Augmente la taille de la police */
+    color: #ffffff;
+    text-align: center;
+    max-width: 100%; /* Limite la largeur du texte */
+    white-space: normal; /* Permet au texte de passer à la ligne si nécessaire */
+}

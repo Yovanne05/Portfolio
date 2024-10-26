@@ -1,0 +1,20 @@
+.home-texte {
+    display: flex;
+    flex-direction: column; /* Garde le texte en colonne */
+    margin-right: 30px; /* Espace entre le texte et l'image */
+    width: 60%; /* Ajustez cette valeur selon vos besoins */
+    text-align: left;
+}
+
+.home-texte p,
+.home-texte h1 {
+    margin: 0; /* Supprimez les marges par défaut */
+}
+
+.home-texte p {
+    margin-bottom: 5px; /* Espace entre les paragraphes */
+}
+
+.home-texte h1 {
+    margin-bottom: 5px; /* Espace après le titre */
+}

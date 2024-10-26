@@ -1,0 +1,29 @@
+.banner-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    background-color: #202020;
+}
+
+.banner-icon {
+    display: flex;
+    width: auto;
+    margin : 0;
+    padding : 5px;
+    border-radius: 15px;
+    list-style: none;
+    justify-content: center;
+    background-color: #2b2b2b;
+
+}
+.banner-icon-image {
+    width: 25px;
+    height: 25px;
+}
+
+.banner-icon li {
+    margin-right: 15px ;
+    margin-left: 15px ;
+}
