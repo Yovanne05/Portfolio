@@ -4,7 +4,7 @@ import '../styles/maincontent/project/ProjectFilter.css'
 
 const projects = [
     { name: 'Zelda', url: "https://github.com/Yovanne05/Zelda", cover :zelda, skills : ['Java'] },
-    { name: 'Portfolio', url: "https://github.com/Yovanne05/Portfolio", cover :portfolio, skills : ['React'] }
+    { name: 'Portfolio', url: "https://github.com/Yovanne05/Portfolio", cover :portfolio, skills : ['React', 'Javascript', 'Html', 'Css'] }
 ];
 
 export const projectsList = projects.map((project, index) => ({

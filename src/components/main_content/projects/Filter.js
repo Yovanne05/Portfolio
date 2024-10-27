@@ -1,4 +1,5 @@
-import '../../../styles/maincontent/project/Filter.css'
+import '../../../styles/maincontent/project/Filter.css';
+import close from '../../../assets/project/close.png';
 
 const lstSkills = ['C', 'Java', 'Php', 'Postgresql', 'Python', 'Css', 'Html', 'JavaScript', 'Photoshop', 'React'];
 
@@ -7,6 +8,10 @@ function Filter({ getselectedSkills, onSkillChange }) {
         const skill = event.target.value;
         if (skill === "") return;
         onSkillChange(skill);
+    };
+
+    const removeSkill = (skillToRemove) => {
+        onSkillChange(skillToRemove, true);
     };
 
     return (
@@ -22,7 +27,15 @@ function Filter({ getselectedSkills, onSkillChange }) {
 
             <div className="selected-skills">
                 {getselectedSkills.map(skill => (
-                    <p key={skill} className="selected-skill">{skill}</p>
+                    <div key={skill} className="selected-skill-container">
+                        <p className="selected-skill">{skill}</p>
+                        <img
+                            src={close}
+                            alt="Close"
+                            className="close-icon"
+                            onClick={() => removeSkill(skill)}
+                        />
+                    </div>
                 ))}
             </div>
         </div>

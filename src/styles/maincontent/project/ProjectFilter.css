@@ -1,10 +1,8 @@
 .projects{
     width: 100%;
     text-align: center;
-    border : 1px solid white;
 }
 .project-list {
-    border: 1px solid white;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -23,13 +21,15 @@
     transition: color 0.2s ease;
 }
 .projects-filter {
-    border: 1px solid white;
+
     display: flex; /* Affichage en ligne */
     justify-content: space-between; /* Espace entre les éléments */
     width: 100%; /* Prend toute la largeur disponible */
 }
 
 .filter-container {
+    background-color: #373737;
+    border-radius: 10px;
     width: 20%; /* Largeur de la div contenant le filtre */
 }
 
