@@ -1,4 +1,4 @@
-import '../../styles/Banner.css';
+import '../../styles/Banner/Banner.css';
 
 function Banner({children}) {
     return <div className='banner-main'>{children}</div>;

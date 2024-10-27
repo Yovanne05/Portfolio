@@ -1,12 +1,9 @@
-.skills{
-    padding: 20px;
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
+.skills-icon-image {
+    width: 70px; /* Ajustement de la taille de l'image */
+    height: 70px;
+    margin-bottom: 8px; /* Espace entre l'image et le texte */
 }
+
 .skills-icon {
     display: flex;
     flex-wrap: wrap;
@@ -41,11 +38,6 @@
     transform: scale(1.1);
 }
 
-.skills-icon-image {
-    width: 70px; /* Ajustement de la taille de l'image */
-    height: 70px;
-    margin-bottom: 8px; /* Espace entre l'image et le texte */
-}
 
 .icon-name {
     font-size: 18px; /* Augmente la taille de la police */

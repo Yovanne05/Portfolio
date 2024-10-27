@@ -1,4 +1,5 @@
 import { iconList } from "../../datas/BannerIcon";
+import '../../styles/Banner/IconList.css'
 
 function IconsList() {
     const scrollToSection = (sectionId) => {

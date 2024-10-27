@@ -1,4 +1,4 @@
-import "../../../styles/maincontent/Skills.css";
+import "../../../styles/maincontent/skills/SkillsList.css";
 import {backIconList} from '../../../datas/BackIcon.js';
 import {frontIconList} from '../../../datas/FrontIcon.js';
 

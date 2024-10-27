@@ -18,23 +18,24 @@ select {
     border-radius: 10px;
 }
 
-.selected-skills {
+.selected-skill-container {
+    background-color: #555353;
+    border-radius: 5px;
+    padding: 10px 10px; /* haut droite bas gauche */
+    margin: 2px 4px; /* Réduit l'espace entre les compétences */
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    font-size: 16px;
+    align-items: center;
 }
 
 .selected-skill {
-    margin-left: 5px;
-    margin-right: 5px;
-    display: inline-block;
-    background-color: #555353;
     color: white;
-    border-radius: 4px;
-    padding: 1px 8px;
+    font-size: 15px;
+    line-height: 1;
+    margin: 0 5px 0 0;
 }
 
-.close-icon{
+.close-icon {
     width: 12px;
+    cursor: pointer;
+    margin-left: auto;
 }

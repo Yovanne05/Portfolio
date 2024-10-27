@@ -1,3 +1,5 @@
+import '../../../styles/maincontent/skills/IconList.css'
+
 function IconList({ list }) {
     return (
         <ul className='skills-icon'>

@@ -1,0 +1,9 @@
+.skills{
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}

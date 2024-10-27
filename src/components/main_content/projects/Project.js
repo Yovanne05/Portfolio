@@ -1,8 +1,7 @@
 import React from 'react';
 import { useState } from "react";
-import ProjectCart from "./ProjectCart";
 import ProjectFilter from "./ProjectFilter";
-import Filter from "./Filter";
+import '../../../styles/maincontent/project/Project.css'
 
 function Project() {
     const [getselectedSkills, setSkills] = useState([]);
@@ -18,10 +17,8 @@ function Project() {
         <div className="main">
             <div className="main-content">
                 <div className="projects">
-                    <div className="project-container">
                         <h1>Projects</h1>
                         <ProjectFilter getselectedSkills={getselectedSkills} onSkillChange={skillsSelectionner}/>
-                    </div>
                 </div>
 
             </div>

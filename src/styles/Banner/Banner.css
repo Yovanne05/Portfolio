@@ -1,0 +1,9 @@
+.banner-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    background-color: #202020;
+    position: relative;
+}
