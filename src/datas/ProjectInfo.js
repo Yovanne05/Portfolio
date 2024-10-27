@@ -1,4 +1,4 @@
-import zelda from '../assets/project/zelda.jpg'
+import zelda from '../assets/project/zelda.png'
 import portfolio from '../assets/project/portfolio.png'
 import '../styles/maincontent/project/ProjectFilter.css'
 
