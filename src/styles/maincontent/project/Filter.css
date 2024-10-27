@@ -1,0 +1,33 @@
+.select-container {
+    display: flex; /* Utiliser Flexbox */
+    flex-direction: column; /* Organiser les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: flex-start; /* Placer les éléments en haut */
+    width: 100%; /* Prendre toute la largeur disponible, ajustez selon vos besoins */
+    padding: 10px; /* Optionnel : ajout d'un peu de padding */
+}
+
+select {
+    width: 70%; /* Ajuster la largeur du select, selon votre design */
+    max-width: 300px; /* Optionnel : largeur maximale */
+    margin-bottom: 10px; /* Espace entre le select et les compétences sélectionnées */
+    padding: 10px; /* Optionnel : ajout de padding pour un meilleur look */
+    border: 1px solid #ccc; /* Ajout d'une bordure, ajustez la couleur selon votre design */
+    border-radius: 4px; /* Ajout d'un bord arrondi */
+}
+
+.selected-skills {
+    display: flex; /* Utiliser flexbox pour la liste des compétences sélectionnées */
+    flex-wrap: wrap; /* Permettre le passage à la ligne */
+    margin-top: 10px; /* Espacement optionnel entre le select et les compétences sélectionnées */
+}
+
+.selected-skill {
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: #555353;
+    color: white;
+    border-radius: 4px;
+    padding: 1px 8px;
+}

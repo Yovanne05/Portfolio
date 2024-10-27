@@ -1,3 +1,5 @@
+import '../../../styles/maincontent/project/ProjectCart.css'
+
 function ProjectCart({project}){
     return (
         <li key={project.id} className="project-list-item">

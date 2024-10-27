@@ -1,0 +1,40 @@
+.projects{
+    width: 100%;
+    text-align: center;
+    border : 1px solid white;
+}
+.project-list {
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.project-list-content a {
+    text-decoration: none;
+    color: #1e90ff;
+    font-weight: bold;
+    margin-top: auto;
+    transition: color 0.2s ease;
+}
+.projects-filter {
+    border: 1px solid white;
+    display: flex; /* Affichage en ligne */
+    justify-content: space-between; /* Espace entre les éléments */
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+.filter-container {
+    width: 20%; /* Largeur de la div contenant le filtre */
+}
+
+.project-list-container {
+    flex: 1; /* Prend le reste de l'espace disponible */
+    display: flex;
+    justify-content: center; /* Centre le contenu */
+}

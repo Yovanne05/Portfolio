@@ -1,6 +1,6 @@
 import zelda from '../assets/project/zelda.jpg'
 import portfolio from '../assets/project/portfolio.png'
-import '../styles/maincontent/Project.css'
+import '../styles/maincontent/project/ProjectFilter.css'
 
 const projects = [
     { name: 'Zelda', url: "https://github.com/Yovanne05/Zelda", cover :zelda, skills : ['Java'] },
