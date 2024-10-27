@@ -36,7 +36,7 @@ function App() {
                 </div>
 
                 <div id="projects">
-                    <ProjectFilter />
+                    <Project />
                 </div>
 
                 <div id="contact">

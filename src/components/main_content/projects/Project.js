@@ -1,5 +1,6 @@
 import React from 'react';
-import ProjectList from "./ProjectList";
+import ProjectCart from "./ProjectCart";
+import ProjectFilter from "./ProjectFilter";
 
 function Project() {
     return (
@@ -7,7 +8,7 @@ function Project() {
             <div className="main-content">
                 <div className="projects">
                     <h1> Projects</h1>
-                    <ProjectList/>
+                    <ProjectFilter/>
                 </div>
 
             </div>

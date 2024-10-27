@@ -1,6 +1,7 @@
 .projects{
     width: 100%;
     text-align: center;
+    border: 1px solid #ffffff;
 }
 .project-list {
     display: flex;
@@ -72,3 +73,16 @@
     font-size: 15px;
 }
 
+.select-container {
+    border: white solid;
+}
+
+.selected-skill {
+    display: inline-block;
+    background-color: #555353;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 5px 0 0px 0;
+
+}

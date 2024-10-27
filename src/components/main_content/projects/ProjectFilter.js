@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { projectsList } from '../../../datas/ProjectInfo';
+import ProjectCart from "./ProjectCart";
 
 const lstSkills = ['C', 'Java', 'Php', 'Postgresql', 'Python', 'Css', 'Html', 'JavaScript', 'Photoshop', 'React'];
 
@@ -24,33 +25,37 @@ function ProjectFilter() {
 
     return (
         <div className="projects-filter">
-            <select onChange={skillsSelectionner} value="">
-                <option value="" disabled>Select a skill</option>
-                {lstSkills.map(skill => (
-                    <option key={skill} value={skill}>
-                        {skill}
-                    </option>
-                ))}
-            </select>
+            <div className="select-container">
+                <select onChange={skillsSelectionner} value="">
+                    <option value="" disabled>Select a skill</option>
+                    {lstSkills.map(skill => (
+                        <option key={skill} value={skill}>
+                            {skill}
+                        </option>
+                    ))}
+                </select>
+
+                <div className="selected-skills">
+                    {getselectedSkills.map(skill => (
+                        <p key={skill} className="selected-skill">{skill}</p>
+                    ))}
+                </div>
+            </div>
 
             <ul className='project-list'>
-                {projectsList.filter(project => skillInProject(project.skills)).map((project) => (
-                    <li key={project.id} className="project-list-item">
-                        <div className="project-list-content">
-                            <img src={project.cover} alt={`${project.name} cover`} />
-                            <p className="project-name">{project.name}</p>
-                            <a href={project.url} target={"_blank"} rel="noreferrer">Repositories </a>
-                            <div className="project-skills">
-                                {project.skills.map((skill, index) => (
-                                    <p key={index} className="skill-item">{skill}</p>
-                                ))}
-                            </div>
-                        </div>
-                    </li>
-                ))}
+                {getselectedSkills.length === 0 ? (
+                    projectsList.map((project) => (
+                        <ProjectCart key={project.id} project={project}/>
+                    ))
+                ) : (
+                    projectsList.filter(project => skillInProject(project.skills)).map((project) => (
+                        <ProjectCart key={project.id} project={project}/>
+                    ))
+                )}
             </ul>
         </div>
     );
+
 }
 
 export default ProjectFilter;
