@@ -9,9 +9,9 @@ import HomeText from "./main_content/home/HomeText";
 import Skills from "./main_content/skills/Skills";
 import SkillsList from "./main_content/skills/SkillsList";
 import Project from "./main_content/projects/Project";
-import ProjectList from "./main_content/projects/ProjectList";
 import AboutMe from "./footer/AboutMe";
 import Contact from "./footer/Contact";
+import ProjectFilter from "./main_content/projects/ProjectFilter";
 
 function App() {
     return (
@@ -20,24 +20,34 @@ function App() {
                 <IconsList />
             </Banner>
             <MainContent>
-                <Home>
-                    <HomeText />
-                    <div className="home-image">
-                        <img src={moi} alt="moi" />
-                    </div>
-                </Home>
-                <Skills>
-                    <SkillsList />
-                </Skills>
-                <Project>
-                    <ProjectList />
-                </Project>
+                <div id="home">
+                    <Home>
+                        <HomeText />
+                        <div className="home-image">
+                            <img src={moi} alt="moi" />
+                        </div>
+                    </Home>
+                </div>
+
+                <div id="skills">
+                    <Skills>
+                        <SkillsList />
+                    </Skills>
+                </div>
+
+                <div id="projects">
+                    <ProjectFilter />
+                </div>
+
+                <div id="contact">
+                    <AboutMe>
+                        <Contact />
+                    </AboutMe>
+                </div>
             </MainContent>
-            <AboutMe>
-                <Contact/>
-            </AboutMe>
         </div>
-    )
+    );
 }
+
 
 export default App;

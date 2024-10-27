@@ -1,9 +1,16 @@
 import React from 'react';
+import ProjectList from "./ProjectList";
 
-function Project({ children }) {
+function Project() {
     return (
         <div className="main">
-            <div className="main-content">{children}</div>
+            <div className="main-content">
+                <div className="projects">
+                    <h1> Projects</h1>
+                    <ProjectList/>
+                </div>
+
+            </div>
         </div>
     );
 }

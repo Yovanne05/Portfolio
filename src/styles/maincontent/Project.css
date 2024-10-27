@@ -1,4 +1,7 @@
-/* Styles de base pour la liste de projets */
+.projects{
+    width: 100%;
+    text-align: center;
+}
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -52,3 +55,20 @@
     margin-top: auto;
     transition: color 0.2s ease;
 }
+
+.project-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+
+.skill-item {
+    padding: 5px 10px;
+    background-color: #555353;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #cfcfcf;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
