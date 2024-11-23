@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ca5c6897.css",
+    "main.js": "/Portfolio/static/js/main.e9058a57.js",
+    "static/media/CV_Yovanne_Ponnou.pdf": "/Portfolio/static/media/CV_Yovanne_Ponnou.1d4a96132d3282254e8f.pdf",
+    "static/media/moi.jpg": "/Portfolio/static/media/moi.30e83d1105bffda06f28.jpg",
+    "static/media/php.png": "/Portfolio/static/media/php.4e0a11d073c37d0dd6de.png",
+    "static/media/Postgresql.png": "/Portfolio/static/media/Postgresql.4cf2ca4ed566c6de14e0.png",
+    "static/media/python.png": "/Portfolio/static/media/python.01d99139e84d6d069561.png",
+    "static/media/C_logo.png": "/Portfolio/static/media/C_logo.e5e77ae69be953e7be8f.png",
+    "static/media/JavaScript.png": "/Portfolio/static/media/JavaScript.6d4f7da8c117dfbbf5eb.png",
+    "static/media/zelda.png": "/Portfolio/static/media/zelda.2626fbc8d82c304e277c.png",
+    "static/media/Java.png": "/Portfolio/static/media/Java.5068f5a6c2837f805b47.png",
+    "static/media/CSS.png": "/Portfolio/static/media/CSS.7b88100f87e4707334b4.png",
+    "static/media/React.png": "/Portfolio/static/media/React.d63272d5526fccfbbbe7.png",
+    "static/media/portfolio.png": "/Portfolio/static/media/portfolio.3bfde4082a9603ce2fe1.png",
+    "static/media/photoshoplogo.png": "/Portfolio/static/media/photoshoplogo.04c888538c561f84f681.png",
+    "static/media/HTML5.png": "/Portfolio/static/media/HTML5.4a71b4f710e1861c30bb.png",
+    "static/media/music.png": "/Portfolio/static/media/music.cc30e45a68d3445d6098.png",
+    "static/media/Typescript.png": "/Portfolio/static/media/Typescript.ac90623e44857147d92e.png",
+    "index.html": "/Portfolio/index.html",
+    "main.ca5c6897.css.map": "/Portfolio/static/css/main.ca5c6897.css.map",
+    "main.e9058a57.js.map": "/Portfolio/static/js/main.e9058a57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca5c6897.css",
+    "static/js/main.e9058a57.js"
+  ]
+}
