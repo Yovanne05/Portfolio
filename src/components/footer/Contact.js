@@ -2,7 +2,7 @@ import '../../styles/footer/Contact.css'
 
 function Contact(){
     return (
-        <div className="contact-container">
+        <div className="aboutme-container">
             <p>Email : yovanne.ponnou@gmail.com</p>
         </div>
     )

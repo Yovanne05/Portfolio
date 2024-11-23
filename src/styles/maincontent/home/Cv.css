@@ -1,0 +1,17 @@
+.cv-link {
+    all: unset; /* Supprime tous les styles par défaut */
+    color: #202020; /* Couleur du texte */
+    cursor: pointer; /* Curseur pointeur */
+    display: inline-block; /* Permet d'appliquer largeur/padding */
+    text-decoration: none; /* Supprime le soulignement */
+    background-color: #6c6c6c; /* Couleur de fond */
+    padding: 10px 10px; /* Espacement interne vertical/horizontal */
+    text-align: center; /* Centre le texte à l'intérieur du lien */
+    margin-top: 5px;
+    width: 100%; /* Prend toute la largeur de son conteneur */
+    border-radius: 5px; /* Arrondit les bords (optionnel) */
+}
+
+.cv-link:hover {
+    text-decoration: underline; /* Effet au survol */
+}

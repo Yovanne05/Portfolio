@@ -23,15 +23,16 @@
     width: 100%; /* Prendre toute la largeur disponible */
 }
 
-.home-image {
+.home-container {
     width: 25%; /* Ajustez cette valeur selon vos besoins */
     max-width: 100%; /* Rendre l'image responsive */
     display: flex; /* Utiliser flex pour centrer le contenu */
     justify-content: center; /* Centre l'image horizontalement */
     align-items: center; /* Centre l'image verticalement */
+    flex-direction: column;
 }
 
-.home-image img {
+.home-container img {
     max-width: 100%; /* L'image prendra au maximum 100% de la largeur de son conteneur */
     height: auto; /* Maintenir le ratio d'aspect de l'image */
     border-radius: 10px;
