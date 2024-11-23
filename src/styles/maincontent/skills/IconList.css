@@ -1,14 +1,14 @@
 .skills-icon-image {
-    width: 70px; /* Ajustement de la taille de l'image */
+    width: 70px;
     height: 70px;
-    margin-bottom: 8px; /* Espace entre l'image et le texte */
+    margin-bottom: 8px;
 }
 
 .skills-icon {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espace entre chaque bloc */
+    gap: 20px;
     padding: 10px;
     list-style: none;
     margin: 0;
@@ -40,9 +40,9 @@
 
 
 .icon-name {
-    font-size: 18px; /* Augmente la taille de la police */
+    font-size: 18px;
     color: #ffffff;
     text-align: center;
-    max-width: 100%; /* Limite la largeur du texte */
-    white-space: normal; /* Permet au texte de passer à la ligne si nécessaire */
+    max-width: 100%;
+    white-space: normal;
 }

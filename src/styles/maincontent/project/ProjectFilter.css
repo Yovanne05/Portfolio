@@ -18,19 +18,19 @@
 }
 .projects-filter {
 
-    display: flex; /* Affichage en ligne */
-    justify-content: space-between; /* Espace entre les éléments */
-    width: 100%; /* Prend toute la largeur disponible */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .filter-container {
     background-color: #373737;
     border-radius: 10px;
-    width: 20%; /* Largeur de la div contenant le filtre */
+    width: 20%;
 }
 
 .project-list-container {
-    flex: 1; /* Prend le reste de l'espace disponible */
+    flex: 1;
     display: flex;
-    justify-content: center; /* Centre le contenu */
+    justify-content: center;
 }
